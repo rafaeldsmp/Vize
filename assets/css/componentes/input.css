@@ -1,0 +1,55 @@
+@import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
+
+.input{
+    display: block;
+    margin: .75rem;
+    width: 24.313rem;
+    height: 3.5rem;
+    background-color: #DEE3EB;
+    border-bottom: 1px solid #000000;
+}
+
+.icone__senha{
+    width: 24px;
+    height: 24px;
+    padding-top:2.5rem;
+}
+  
+#text {
+    display: none;
+  }
+  
+.input::placeholder{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    text-align: left;
+    color: var(--cor-input--placeholder);
+    position: absolute;
+    padding-top: .5rem;
+    padding-left: .5rem;
+}
+
+.input__mensagem--erro{
+    display: none;
+}
+
+.input__container--invalido .input__mensagem--erro {
+    color: var(--cor-aviso);
+    display: flex;
+    margin-top: 1.75rem;
+}
+
+.input__container--invalido {
+    margin-bottom: 0.5rem;
+}
+
+.input__container--invalido .input {
+    border: 2px solid var(--cor-aviso);
+    font-weight: 800;
+    border-radius: 7px;
+    align-items: center;
+    justify-content: center;
+}

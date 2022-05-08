@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Vize</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="icon" href="./assets/img/vize.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/base/base.css">
+    <link rel="stylesheet" href="assets/css/componentes/botao.css">
+    <link rel="stylesheet" href="assets/css/componentes/cartao.css">
+    <link rel="stylesheet" href="assets/css/componentes/input.css">
+    <link rel="stylesheet" href="assets/css/login.css">
+</head>
+
+<body>
+    <header>
+    </header>
+    <main class="container flex flex--coluna flex--centro">
+        <section class="cartao">
+            <form  class="login" id="form">              
+                <input class="input input__usuario" name="usuario" type="email" data-tipo="usuario" id="usuario" placeholder="Usuário" required>
+                <span class="input__mensagem--erro mensagem__erro--usuario"></span>
+                <input class="input input__senha" name="senha" type="password" data-tipo="senha" id="senha" placeholder="Senha" required>
+                <span class="input__mensagem--erro mensagem__erro--senha"></span>
+                <i class="fa fa-eye icone__senha" id="text"></i>
+                <i class="fa fa-eye-slash icone__senha" id="pass"></i>
+                <button type="submit" class="botao botao__login" id="btn__login">login</button>
+                <button class="botao botao__registrar" id="btn__registro">Registrar</button>   
+            </form>
+        </section>
+    </main>
+    
+    <script src="./assets/js/app.js" ></script>
+    <script src="./assets/js/api/Post.js"></script>
+</body>
+
+</html>
