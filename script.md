@@ -5,9 +5,9 @@ Utilize uma biblioteca de componentes e estilo, à sua escolha (MaterialUI, Boot
 # API:
 Utilizar a API: https://www.appsloveworld.com/sample-rest-api-url-for-testing-with-authentication, porém com o host “https://devfront.vize.solutions”
 Neste aplicativo serão utilizados os seguintes endpoints:
-https://devfront.vize.solutions/api/authaccount/registration
-https://devfront.vize.solutions/api/authaccount/login
-https://devfront.vize.solutions/api/users?page=1
+https://devfront.vize.solutions/api/authaccount/registration - tela de registro 
+https://devfront.vize.solutions/api/authaccount/login tela de login
+https://devfront.vize.solutions/api/users?page=1 lista 
 
 # Requisitos:
 Usuário deve ser registrar e autenticar utilizando a API acima, utilizando os endpoints “api/authaccount/registration” e “api/authaccount/login”

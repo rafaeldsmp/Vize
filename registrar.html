@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registrar | Vize</title>
+    <script defer src="assets/js/api/Post.js" type="module" ></script>
     <link rel="icon" href="./assets/img/vize.jpg">
     <link rel="stylesheet" href="assets/css/base/base.css">
     <link rel="stylesheet" href="assets/css/componentes/botao.css">
@@ -19,19 +20,19 @@
     </header>
     <main class="container flex flex--coluna flex--centro">
         <section class="cartao">
-            <form class="registro">
-                <input type="email" class="input registro__usuario" placeholder="Usuário" required>
-                <input type="password" class="input registro__senha" id="senha" placeholder="Senha" required>
-                <input type="text" class="input registro__nome" placeholder="Nome" required>
+            <form class="registro" id="form">
+                <input type="email" id="email" class="input registro__usuario" placeholder="Usuário" required>
+                <input type="password" id="senha" class="input registro__senha" placeholder="Senha" required>
+                <input type="text" id="nome" class="input registro__nome" placeholder="Nome" required>
                 <i class="fa fa-eye icone__senha" id="text"></i>
                 <i class="fa fa-eye-slash icone__senha" id="pass"></i>
-                <button type="button" class="botao botao__registrar">Registrar</button>
+                <button type="submit" id="btn__registrar" class="botao botao__registrar">Registrar</button>
             </form>
         </section>
     </main>
     <footer>
     </footer>
-    <script src="./assets/js/app.js" type="module"></script>
+    
 </body>
 
 </html>
