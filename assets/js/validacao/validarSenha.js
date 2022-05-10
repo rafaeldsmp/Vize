@@ -1,5 +1,5 @@
 
-export function mostrarSenha(tipo){
+export default function mostrarSenha(tipo){
     document.getElementById('pass').addEventListener('click', () => {
       if(tipo.value) {
         tipo.type == 'password' ? tipo.type = 'text' : tipo.type = 'password';

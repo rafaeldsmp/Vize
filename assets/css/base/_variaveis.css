@@ -4,7 +4,7 @@
 
     --fonte-peso-input: 300;
 
-    --fonte-tamanho-logo: 28px;
+    
     --fonte-tamanho-cartao-titulo: 28px;
     --fonte-tamanho-input-label: 20px;
     --fonte-tamanho-botao: 22px;
@@ -17,7 +17,7 @@
     --cor-secundaria: #FFFFFF;
     --cor-contraste-escuro: #4D4D4D;
     --cor-contraste-claro: #fff;
-    --cor-aviso: #df2525;
+    --cor-erro: #df2525;
     --cor-sucesso: #047900;
     --cor-transparencia: #4d4d4d33;
    

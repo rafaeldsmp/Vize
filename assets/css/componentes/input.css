@@ -37,7 +37,7 @@
 }
 
 .input__container--invalido .input__mensagem--erro {
-    color: var(--cor-aviso);
+    color: var(--cor-erro);
     display: flex;
     margin-top: 1.75rem;
 }
@@ -47,7 +47,7 @@
 }
 
 .input__container--invalido .input {
-    border: 2px solid var(--cor-aviso);
+    border: 2px solid var(--cor-erro);
     font-weight: 800;
     border-radius: 7px;
     align-items: center;

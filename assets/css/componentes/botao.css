@@ -12,9 +12,30 @@
     width: 315px;
     height: 40px;
     margin-bottom: 1.5rem;
+    margin-left: 2.5rem;
+}
+
+.botao__login.error{
+    background: var(--cor-erro);
+}
+
+.botao__login.sucesso{
+    background: var(--cor-sucesso)
 }
 
 .botao__registrar{
     width: 259px;
     height: 40px;
+    margin-left: 4.5rem;
+}
+
+.botao__registrar.error{
+    background: var(--cor-erro);
+}
+
+.botao__registrar.sucesso{
+    background: var(--cor-sucesso)
+}
+.login__submit{
+    background: var(--input-error)
 }

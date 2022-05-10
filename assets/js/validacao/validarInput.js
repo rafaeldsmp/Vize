@@ -6,15 +6,15 @@ const tiposDeErro=[
 ]
 
 const mensagemDeErro ={
-    usuario:{
-        valueMissing:"O campo Usuario não pode estar vazio",
-        typeMismatch:"O usuario digitado não é válido"
+    email:{
+        valueMissing:"Vize informa: O campo Usuario não pode estar vazio",
+        typeMismatch:"Vize informa: O usuario digitado não é válido"
     },
     senha:{
-        valueMissing:"O campo de Senha não pode estar vazio"
+        valueMissing:"Vize informa: O campo Senha não pode estar vazio"
     },
     nome:{
-        valueMissing: "O Campo Nome não pode estar vazio"
+        valueMissing: "Vize informa: O Campo Nome não pode estar vazio"
     }
 }
 
@@ -28,7 +28,7 @@ function mostraMensagemDeErro(tipoDeInput, input){
     return mensagem;
 }
 
-export function validaInput(input){
+export default function validaInput(input){
     const tipoDeInput = input.dataset.tipo;
     if(input.validity.valid){
        input.parentElement.classList.remove('input__container--invalido');
