@@ -109,16 +109,10 @@ function errorLogin(submitButton) {
     submitButton.textContent = 'Vize informa: Usuário ou Login errado';
 }
 
-function errorRegistro(submitButton) {
-    submitButton.classList.add('error');
-    submitButton.classList.remove('sucesso');
-    submitButton.textContent = 'Vize informa: Não foi possível efetuar o Cadastro';
-}
-
 function campoBranco(submitButton) {
     submitButton.classList.add('error');
     submitButton.classList.remove('sucesso');
-    submitButton.textContent = 'Vize informa: Todos os campos devem ser preenchidos';
+    submitButton.textContent = 'Vize informa: Todos os campos devem ser preenchidos corretamente';
 }
 
 function emailExistente(submitButton) {

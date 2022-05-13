@@ -45,10 +45,6 @@ const init = () => {
     if(document.querySelector('.tabela__usuario')){
         listarDados(token);
     }
-
-    if(token ='Inavlid Token'){
-        location.href = "./logar.html"
-    }
   
 }
 
