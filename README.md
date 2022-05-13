@@ -42,4 +42,4 @@ https://devfront.vize.solutions/api/users?page=1
 Rafael Pino
 
 ---
-made with 💜 by Rafael Pino 👋 [see my linkedin](https://www.linkedin.com/in/rafael-pino-739442a3/)
+Made with 💜 by Rafael Pino 👋 [see my linkedin](https://www.linkedin.com/in/rafael-pino-739442a3/)
