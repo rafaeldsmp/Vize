@@ -1,11 +1,9 @@
 .cartao {
     background-color: var(--cor-contraste-claro);
     width: 100%;
-    padding: 10rem;
+    padding: 2rem;
     box-sizing: border-box;
     margin: 0% auto;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+   
     
 }

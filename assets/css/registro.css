@@ -12,10 +12,14 @@
 
 .registro__usuario{
     grid-area: usuario;
+    grid-column: 1/3;
+    grid-row:1/1;
 }
 
 .registro__senha{
     grid-area: senha;
+    grid-column: 1/3;
+    grid-row: 2/2; 
 }
 
 .registro__nome{

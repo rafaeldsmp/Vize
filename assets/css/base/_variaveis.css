@@ -1,10 +1,15 @@
 :root {
     --fonte-familia-corpo: 'Roboto', sans-serif;;
+    --fonte-tabela: 'Open Sans', sans-serif;
 
-
-    --fonte-peso-input: 300;
-
+    --fonte-peso-leve: 300;
+    --fonte-peso-normal: 400;
+    --fonte-peso-forte: 700;
     
+    --cor-tabela-fundo: #CCE5FF;
+    --cor-tabela-fonte:#00639C;
+    --cor-tabela-linha: #CCE5FF;
+
     --fonte-tamanho-cartao-titulo: 28px;
     --fonte-tamanho-input-label: 20px;
     --fonte-tamanho-botao: 22px;
@@ -13,14 +18,14 @@
     --fonte-tamanho-modal-titulo: 28px;
     --fonte-tamanho-modal-botao: 28px;
     
-    --cor-primaria: #0071ea;
-    --cor-secundaria: #FFFFFF;
-    --cor-contraste-escuro: #4D4D4D;
+    --cor-preta: #222629;
+    --cor-branca: #FFFFFF;
+    --cor-azul: #00639C;
+    --cor-contraste-escuro: #000;
     --cor-contraste-claro: #fff;
     --cor-erro: #df2525;
     --cor-sucesso: #047900;
-    --cor-transparencia: #4d4d4d33;
-   
+
     --cor-botao-background: #DEE3EB;
     --cor-input--placeholder: #00639C;
 }

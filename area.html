@@ -6,32 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Área Logada | Vize</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <script defer src="assets/js/app.js" type="module"></script>
+    <script defer src="assets/js/index.js" type="module"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="icon" href="./assets/img/vize.jpg" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/base/base.css">
-    <link rel="stylesheet" href="assets/css/componentes/botao.css">
     <link rel="stylesheet" href="assets/css/componentes/cartao.css">
-    <link rel="stylesheet" href="assets/css/componentes/input.css">
-    <link rel="stylesheet" href="assets/css/login.css">
     <link rel="stylesheet" href="assets/css/componentes/tabela.css">
 </head>
 <body>
     <header></header>
-    <main class="container flex flex--coluna flex--centro">
+    <main>
         <section class="cartao">
-            <table class="tabela__usuario">
-                <thead> Usuários
+            <table > 
+                <h3 class="tabela__usuario">Usuários</h3>
+                <thead class="tabela__cabecalho">
                     <tr>
-                        <th>Id</th>
-                        <th>Nome</th>
+                        <th class="th__id">ID</th>
+                        <th class="th__nome">Nome</th>
                     </tr>
-                </thead>
-                <tbody>
+                <tbody class="tabela__api">
                     <tr>
-                        <td></td>
-                        <td></td>
+                        <td id="fill__id">   
+                        </td>
+                        <td id="fill__nome">                           
+                        </td>
                     </tr>
-            </table>
+                </tbody> 
         </section>
     </main>
     <footer></footer>

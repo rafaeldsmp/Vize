@@ -2,7 +2,7 @@ const tiposDeErro=[
     "valueMissing",
     "typeMismatch",
     "patternMismatch",
-    "customError"
+    "tooShort",
 ]
 
 const mensagemDeErro ={
@@ -11,10 +11,11 @@ const mensagemDeErro ={
         typeMismatch:"Vize informa: O usuario digitado não é válido"
     },
     senha:{
-        valueMissing:"Vize informa: O campo Senha não pode estar vazio"
+        valueMissing:"Vize informa: O campo Senha não pode estar vazio",
+        tooShort:"Vize informa: A Senha digitada deve conter mais de 6 caracteres"
     },
     nome:{
-        valueMissing: "Vize informa: O Campo Nome não pode estar vazio"
+        valueMissing: "Vize informa: O Campo Nome não pode estar vazio",
     }
 }
 

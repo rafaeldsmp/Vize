@@ -3,8 +3,8 @@
     justify-content: center;
     align-items: center;
     margin: 10px 24px;
-    color: #ffffff;   
-    background-color: #00639C;
+    color: var(--cor-branca);   
+    background-color: var(--cor-azul);
     border-radius: 100px;
 }
 

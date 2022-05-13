@@ -1,18 +1,58 @@
-table{
-	width: 100%;
-	margin-bottom : .5em;
-    table-layout: fixed;
-
+.tabela__usuario {
+	font-family: var(--fonte-familia-corpo);
+	font-size: 32px;
+	font-weight: var(--fonte-peso-normal);
+	line-height: 64px;
+	letter-spacing: -0.25px;
+	text-align: left;
+	padding-bottom: 2.5rem;
 }
 
-td, th {
-	padding: .7em;
-	margin: 0;
-	border: 1px solid #ccc;
+.tabela__cabecalho {
+	border: 1px solid var(--cor-tabela-linha);
+	background-color: var(--cor-tabela-fundo);
+	font-family: var(--fonte-tabela);
+	color: var(--cor-tabela-fonte);
+	font-size: 12px;
+	font-weight: var(--fonte-peso-forte);
+	line-height: 16px;
 	text-align: center;
+	font-style: normal;
+	padding-top: 2rem;
 }
 
-th{
-	font-weight: bold;
-	background-color: #EEE;
+.th__id, .tabela__api--id{
+	vertical-align: middle;
+	border-right: solid #fff;
+	height: 40px;
+	width: 186px;
+}
+
+.th__nome, .tabela__api--nome {
+	padding-left: 1rem;
+	vertical-align: middle;
+	text-align: left;
+	height: 40px;
+	left: 0px;
+	top: 0px;
+	width: 875px;
+}
+
+.tabela__api {
+font-family: var(--fonte-familia-tabela);
+font-size: 12px;
+font-weight: 400;
+line-height: 48px;
+padding-left: 1rem;
+border: 1px solid var(--cor-tabela-linha);
+}
+
+.tabela__api--id {
+	display: flex;
+	justify-content: space-around;
+	border-right: solid var(--cor-tabela-linha);
+}
+
+.tabela__api--nome {
+	display: flex;
 }

@@ -5,8 +5,8 @@
     margin: .75rem;
     width: 24.313rem;
     height: 3.5rem;
-    background-color: #DEE3EB;
-    border-bottom: 1px solid #000000;
+    background-color: var(--cor-branca);
+    border-bottom: 1px solid var(--cor-preta);
 }
 
 .icone__senha{
@@ -22,7 +22,7 @@
 .input::placeholder{
     font-size: 12px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: var(--fonte-peso-normal);
     line-height: 16px;
     letter-spacing: 0.4px;
     text-align: left;
@@ -48,7 +48,7 @@
 
 .input__container--invalido .input {
     border: 2px solid var(--cor-erro);
-    font-weight: 800;
+    font-weight: var(--fonte-peso-normal);
     border-radius: 7px;
     align-items: center;
     justify-content: center;
